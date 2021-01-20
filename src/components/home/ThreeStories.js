@@ -14,7 +14,7 @@ function ThreeStories(props) {
 
   return (
     <>
-    {console.log(props.stories[0])}
+    {/* {console.log(props.stories[0])} */}
       <StoriesDiv stories={latestStories} />
     </>
   );

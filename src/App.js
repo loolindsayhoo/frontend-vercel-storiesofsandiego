@@ -22,13 +22,7 @@ function App() {
     
     return (
         <div className="App">
-            {/* <div className="sharethis-inline-share-buttons">HERE</div> */}
-{/* !!!!!! IMPORTANT !!!!!! before pusing to github, comment out line 28 and uncomment line 30 */}
-        {/* LOCAL ENVIRONMENT Development: */}
-        <Router basename={process.env.PUBLIC_URL}>
-        {/* GITHUB ENVIRONMENT: Github pages for hosting */}
-            {/* <BrowserRouter basename={public.env.PUBLIC_URL} > */}
-{/* !!!!!! IMPORTANT !!!!!! before pusing to github, comment out line 28 and uncomment line 30 */}
+        <Router>
                 <div className="navbar">
                     <NavBar />
                 </div>
