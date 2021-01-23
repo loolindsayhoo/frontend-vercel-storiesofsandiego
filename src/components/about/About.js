@@ -9,7 +9,7 @@ export function About() {
     return (
         <>
             <div className="about-header">
-                <h1>About Stories</h1> 
+                <h1>About Stories Of San Diego</h1> 
             </div>
             <div className="about-container">
                 <div className="about-image">
