@@ -6,13 +6,11 @@ function Contributors(props) {
     const [contributorsData, setContributorsData] = useState([])
 
     useEffect(() => {
-        // console.log("here")
         const fetchContributors = async () => {
             const response = await fetch(API_URL + "/contributors");
             const fetchData = await response.json();
             setContributorsData(fetchData.contributors);
         };
-        // console.log(data)
         fetchContributors();
     }, []);
 

@@ -9,7 +9,6 @@ export function Home(props) {
 
     return (
         <>
-            {/* {console.log("here", data)} */}
             <div className="home-image"></div>
             <div className="home-headers">
                 <h1>Telling The Full American Story</h1>
@@ -28,7 +27,6 @@ export function Home(props) {
                 </h3>
                 {data.stories.length > 0 && (
                     <div className="latest-story-card-divs">
-                        {/* {console.log("mapping", data.stories.length === 0)} */}
                         <ThreeStories stories={data.stories} />
                     </div>
                 )}
