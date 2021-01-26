@@ -35,6 +35,7 @@ const DeleteButton = (props) => {
                     method: "DELETE"
                 })
                 const fetchData = await response.json();
+                console.log("fetchData Delete", fetchData)
             };
             fetchStory()
         }
