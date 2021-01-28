@@ -91,6 +91,9 @@ export const NavBar = () => {
           </li>
         </ul>
       </div>
+      <div className="subtext-button" >
+          <button>Text Us Your Story</button>
+      </div>
     </>
   );
 };

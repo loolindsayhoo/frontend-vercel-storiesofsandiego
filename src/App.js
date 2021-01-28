@@ -25,7 +25,9 @@ function App() {
         <Router>
                 <div className="navbar">
                     <NavBar />
+                    
                 </div>
+        
                 <Switch>
                     {/* <Route exact path="" component={Home} /> */}
                     <Route exact path="/" component={Home} />

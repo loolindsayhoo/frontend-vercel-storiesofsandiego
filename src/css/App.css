@@ -150,3 +150,17 @@
     overflow: hidden;
     margin-right: 17px;
 }
+
+#signup_form {
+    background-color: pink;
+}
+.subtext-iframe {
+    /* max-width: 700px; */
+    margin-bottom: 1em;
+}
+
+iframe#subtext_form {
+    width: 1px;
+    min-width: 100%;
+    min-height: 256px;
+}
