@@ -38,6 +38,8 @@ export const ModalTextUs = ({
                             <path d="M 10,10 L 30,30 M 30,10 L 10,30" />
                         </svg>
                     </button>
+                    <h1 >Text Us YOUR Story Directly</h1>
+                    <h4>If you'd like to text us your story, please send us your number below and we will text with a number that you can reply to with your name, story, an email (if you have one) and an image we can share online. </h4>
                     <div className="modal-body">
                         <SubTextCode onSubmit={onSubmit} data={data} closeModal={closeModal} />
                     </div>
