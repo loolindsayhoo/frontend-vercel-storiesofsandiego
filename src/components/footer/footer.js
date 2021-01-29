@@ -60,7 +60,7 @@ export const Footer = () => {
                         </a>
                     </div>
                     <p className="copyright">
-                        © Copyright 2020 Stories of San Diego
+                        © Copyright {new Date().getFullYear()} Stories of San Diego
                     </p>
                 </div>
             </section>
