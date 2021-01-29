@@ -89,13 +89,17 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     height: 100%;
     padding: 2.5em 1.5em 1.5em 1.5em;
     background-color: #ffffff;
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+}
+
+.modal-area-2 {
+    width: 40%;
 }
 
 @media screen and (min-width: 500px) {
@@ -151,16 +155,13 @@
     margin-right: 17px;
 }
 
-#signup_form {
-    background-color: pink;
-}
 .subtext-iframe {
     /* max-width: 700px; */
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
 }
 
 iframe#subtext_form {
-    width: 1px;
+    /* width: 1px; */
     min-width: 100%;
     min-height: 256px;
 }

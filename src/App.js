@@ -10,13 +10,14 @@ import { Home } from "./components/home/Home";
 import { Stories } from "./components/storiespage/Stories";
 import Story from "./components/storiespage/Story";
 import Signup from "./components/admin/Signup";
-import News from "./components/news/News"
-import Search from "./components/search/Search"
+import News from "./components/news/News";
+import Search from "./components/search/Search";
 import { Footer } from "./components/footer/footer";
 import { ContributingWriter } from './components/contact/ContributingWriter';
 import StoryForm from './components/contact/StoryForm';
-import MailchimpForm from './components/contact/MailchimpForm'
-import ContactForm from './components/contact/ContactForm'
+import MailchimpForm from './components/contact/MailchimpForm';
+import ContactForm from './components/contact/ContactForm';
+
 
 function App() {
     
