@@ -29,8 +29,8 @@ export const Footer = () => {
                         </Link>
                     </li>
                     <li className="nav__item">
-                        <Link to="/admin" className="nav__link">
-                            ADMIN
+                        <Link to="/news" className="nav__link">
+                            NEWS
                         </Link>
                     </li>
                 </ul>
