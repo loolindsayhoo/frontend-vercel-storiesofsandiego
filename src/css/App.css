@@ -101,6 +101,7 @@
 .modal-area-2 {
     width: 40%;
     color: #5f5652;
+    height: auto;
 }
 
 @media screen and (min-width: 500px) {
@@ -138,6 +139,9 @@
 
 .modal-body {
     padding-top: 0.25em;
+    width: 500%;
+    height: auto;
+    /* min-height: 256px; */
 }
 ._hide-visual {
     border: 0 !important;
@@ -159,10 +163,16 @@
 .subtext-iframe {
     /* max-width: 700px; */
     /* margin-bottom: 1em; */
+    height: 500px;
 }
 
-iframe#subtext_form {
+iframe #subtext_form {
     /* width: 1px; */
     min-width: 100%;
     min-height: 256px;
+}
+
+iframe {
+    width: 20%;
+    height: 100%;
 }

@@ -16,7 +16,7 @@ function Contributors(props) {
 
         const contributors1 = contributorsData.map ( contributor => {
             return(
-                <>
+                <div key={contributor.id}>
                     <section className="individual-cards">
                         <img src={contributor.image} alt="" className="individual-image" />
                         <span>
@@ -25,7 +25,7 @@ function Contributors(props) {
                         </span>
                     </section>
                     <div className="about-divider-2"></div>
-                </>
+                </div>
             )
         })
         if (contributors1) {
