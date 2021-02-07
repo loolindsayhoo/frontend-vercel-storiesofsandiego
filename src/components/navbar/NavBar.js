@@ -22,6 +22,7 @@ export const NavBar = () => {
                 <Link to="/">
                     <img src={SOSDLogo} alt="SOSD logo" width="300" />
                 </Link>
+                <div className="phone-number">Text Us Your Story To: 619-777-5776</div>
             </div>
             <div className="navbar-links">
                 <ul className="nav">

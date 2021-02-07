@@ -28,12 +28,18 @@
 }
 
 .navbar-header {
-    font-size: 2em;
-    font-family: "Mrs Saint Delafield", cursive;
+    /* font-size: 2em; */
+    font-weight: 700;
+    /* font-family: "Mrs Saint Delafield", cursive; */
     color: rgba(0, 115, 181);
-    margin-top: -2.5em;
-    display: flex;
+    margin-top: -3.5em;
+    /* display: flex; */
     flex: 1;
+    margin-left: -13em;
+}
+
+.phone-number {
+    margin-bottom: 1em;
 }
 
 .navbar-header img {
@@ -56,10 +62,11 @@ ion-icon {
 }
 
 .subtext-button-1 {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: flex-end;
-    height: auto;
+    margin-top: 84px;
+    /* display: flex; */
+    /* align-items: flex-end; */
+    /* height: auto; */
+    height: 100%;
 }
 
 .subtext-button button {
@@ -78,7 +85,7 @@ ion-icon {
     border-radius: 0.5em;
     border: solid 1.5px #5f5652;
     text-decoration: none;
-    margin: 5px;
+    margin: 7px;
 }
 
 .subtext-button button:hover,
