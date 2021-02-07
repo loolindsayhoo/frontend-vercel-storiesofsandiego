@@ -97,3 +97,63 @@ ion-icon {
     box-shadow: -0.25em 0.5em 0.5em rgba(0, 0, 0, 0.25);
     transition: all 0.5s ease;
 }
+
+/* --------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        all: unset;
+    }
+    .navbar {
+        padding: 5em 4em 2em 2em;
+    }
+
+    .navbar-links {
+        display: flex;
+        font-size: 1.4em;
+        margin-top: -1em;
+        margin-left: 5em;
+        width: 2em;
+    }
+
+    .navbar-header img {
+        padding: 1em;
+        margin-top: 2em;
+        margin-left: 12em;
+    }
+
+    .phone-number {
+        margin-left: 13em;
+    }
+
+    .subtext-button {
+        margin-left: 4em;
+    }
+
+    .subtext-button-1 {
+        width: 50%;
+        margin-left: 6.45em;
+        margin-top: 0;
+    }
+
+    .subtext-button button {
+        background-color: rgba(0, 115, 181);
+        color: white;
+        padding: 0.5em;
+        font-size: 0.85em;
+        border-radius: 0.5em;
+        margin: 2em;
+    }
+
+    .a-submit-story {
+        background-color: rgba(0, 115, 181);
+        color: white;
+        padding: 0.5em;
+        font-size: 0.85em;
+        border-radius: 0.5em;
+        border: solid 1.5px #5f5652;
+        text-decoration: none;
+        /* margin: 7px; */
+        box-shadow: 1px 1px black;
+    }
+}

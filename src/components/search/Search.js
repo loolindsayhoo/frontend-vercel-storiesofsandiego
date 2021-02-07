@@ -63,7 +63,7 @@ function Search() {
     if (stories.length === 0) {
         return (
             <div className="search-articles1">
-                <div className="wrapper" style={{"height" : "400px"}}>
+                <div className="wrapper">
                     <div className="container">
                         <div className="search_wrap search_wrap_2">
                             <div className="search_box">

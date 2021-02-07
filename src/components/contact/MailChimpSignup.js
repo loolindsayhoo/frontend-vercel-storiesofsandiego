@@ -13,7 +13,7 @@ function MailChimpSignup() {
                 </span>
             </div>
             <div className="story-form-container">
-                <Link to="/mailchimp-form">
+                <Link to="/mailchimp-form" className="arrow-link">
                     <ion-icon name="chevron-forward-outline"></ion-icon>
                 </Link>
                 {/* < ContactModal triggerText={triggerText}/> */}

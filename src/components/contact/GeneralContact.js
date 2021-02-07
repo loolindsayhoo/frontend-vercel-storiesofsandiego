@@ -10,8 +10,8 @@ function GeneralContact(props) {
                 <span>Send us a message directly.  We can't wait to hear from you.</span>
             </div>
             <div className="story-form-container">
-                <Link to="/contact-form">
-                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                <Link to="/contact-form" className="arrow-link">
+                    <ion-icon name="chevron-forward-outline" ></ion-icon>
                 </Link>
                 {/* < ContactModal triggerText={triggerText}/> */}
             </div>

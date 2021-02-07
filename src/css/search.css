@@ -35,10 +35,10 @@
 }
 @media screen and (max-width: 530px) {
     .search-articles1::before {
-        top: 40%;
+        top: 70%;
         right: 0px;
         bottom: 0px;
-        left: 15%;
+        left: 25%;
     }
 }
 
@@ -46,6 +46,16 @@
     border: 0;
     outline: none;
     color: #8b7d77;
+}
+
+.wrapper {
+    height: 500px;
+}
+
+@media screen and (max-width: 530px) {
+    .wrapper {
+        height: 200px;
+    }
 }
 
 .search_wrap {
@@ -59,6 +69,17 @@
     height: 60px;
     border: 1px solid rgb(206, 79, 39);
     border-radius: 4px;
+}
+
+@media screen and (max-width: 530px) {
+    .search_wrap .search_box {
+        position: relative;
+        width: 300px;
+        height: 60px;
+        border: 1px solid rgb(206, 79, 39);
+        border-radius: 4px;
+        margin-left: 3em;
+    }
 }
 
 .search_wrap .search_box .input {

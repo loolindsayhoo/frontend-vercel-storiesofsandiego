@@ -21,7 +21,7 @@ Talk about your challenges, your hopes and triumphs.
 </span>
             </div>
             <div className="story-form-container">
-                <Link to="/story-form">
+                <Link to="/story-form" className="arrow-link">
                     <ion-icon name="chevron-forward-outline"></ion-icon>
                 </Link>
                 {/* < ContactModal triggerText={triggerText}/> */}

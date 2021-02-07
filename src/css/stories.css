@@ -32,6 +32,7 @@
     .first-three-story-cards {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 1em;
+        margin: 0;
     }
 }
 
@@ -193,9 +194,9 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .search_wrap__stories .search_box__stories {
-        width: 200px;
+        width: 300px;
         margin-left: 4em;
     }
 }
@@ -244,6 +245,13 @@
 
 .search_wrap__stories .search_wrap_2__stories .search_box__stories .input {
     padding-left: 80px;
+}
+
+@media screen and (max-width: 500px) {
+    .search_wrap_2__stories {
+        width: 30%;
+        margin-left: 0;
+    }
 }
 
 .edit-story-div {
