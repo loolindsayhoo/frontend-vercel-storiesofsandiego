@@ -95,7 +95,7 @@ export const NavBar = () => {
             </div>
             <div className="subtext-button-1">
                 <a
-                    className="btn-submit-story"
+                    className="a-submit-story"
                     href="/story-form"
                 >
                     Submit Your Story

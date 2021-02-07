@@ -18,7 +18,7 @@
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     grid-gap: 0.25rem;
     align-items: center;
-    margin-right: -5.5em;
+    margin-right: -6em;
 }
 
 .navbar__links:hover,
@@ -77,7 +77,7 @@ ion-icon {
     border-radius: 0.5em;
 }
 
-.btn-submit-story {
+.a-submit-story {
     background-color: rgba(0, 115, 181);
     color: white;
     padding: 0.5em;
@@ -86,12 +86,13 @@ ion-icon {
     border: solid 1.5px #5f5652;
     text-decoration: none;
     margin: 7px;
+    box-shadow: 1px 1px black;
 }
 
 .subtext-button button:hover,
 .subtext-button button:active,
-.btn-submit-story:hover,
-.btn-submit-story:active {
+.a-submit-story:hover,
+.a-submit-story:active {
     transform: translateY(-3px);
     box-shadow: -0.25em 0.5em 0.5em rgba(0, 0, 0, 0.25);
     transition: all 0.5s ease;
